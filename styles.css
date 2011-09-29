@@ -1,0 +1,57 @@
+body{background:#def;overflow:hidden;font-family:'Lucida Casual', 'Comic Sans MS'}
+
+#center-box {
+	position:absolute;
+	top:0;right:0;bottom:0;left:0;
+	width:240px;
+	height:60px;
+	margin:auto;
+	padding:0px;
+}
+#fields {text-align:center;margin:0px auto;}
+#fields input {width:120px;border:2px solid black;padding:4px;}
+#username-clear {display:none;color:#999;}
+#username-username {color:black;}
+#password-clear {display:none;color:#999;}
+#password-password {color:black;}
+
+#buttons {margin-top:5px;text-align:center;}
+#buttons input {float:left;border:none;width:120px;height:102px;}
+#login-button {background:url("img/login-button.png");}
+#login-button:hover {background-position:-120px 0px;}
+#login-button:active {background-position:-240px 0px;}
+#generate-button {background:url("img/generate-button.png");}
+#generate-button:hover {background-position:-120px 0px;}
+#generate-button:active {background-position:-240px 0px;}
+
+#cloud1{width: 392px; height: 229px;background:url("img/clouds1.png");
+		position:absolute;top:-200px;left: -450px;}
+
+#cloud2{width: 392px; height: 214px;background:url("img/clouds1.png");
+		background-position:0px -229px;
+		position:absolute;top: -300px; left: 140px;}
+		  
+#cloud3{width: 392px; height: 229px;background:url("img/clouds1.png");
+		position:absolute;top:-50px;left:370px;}
+
+#logo {position:absolute;left:0px;top:-90px;width:260px;height:50px;}
+#logo span {
+	font-size:3.6em;position:relative;margin-top:-0.5em;
+	color:#8cf;
+	text-shadow:
+		3px 3px 0 #000,
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+#logo span:hover {
+	cursor:default;
+	color:#ff0;
+	text-shadow:
+		3px 3px 0 #000,
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
